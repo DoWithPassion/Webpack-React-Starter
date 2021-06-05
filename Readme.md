@@ -24,7 +24,7 @@
     - filename - filename of the generated file
 
 #### plugins
-    - It takes the list of plugin objects that need ti handle.
+    - It takes the list of plugin objects that need to handle.
 ##### HtmlWebPackPlugin
     - It will generate index.html for us and along with that it will also inject the final output js to the index.html in output folder and we can also give our own html template file. So that it will create html based on our template.
     Eg: new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'app', 'index.html') })
@@ -32,3 +32,4 @@
     -  To specify as production or dev
 ##### dev-server
     - To watch the changes and update the server without stopping and re running
+    
