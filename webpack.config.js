@@ -18,6 +18,7 @@ module.exports = {
             // Here we mentioned multiple loaders and also the loaders are loaded from right to left
             // Css loader allows us to import all the css properties into out js file.
             // Style loader allows us to take the css properties further to inject them to into the stylesheet of index file
+            
             {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"]
